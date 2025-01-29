@@ -1,0 +1,226 @@
+@media (max-width: 800px) {
+  header {
+    width: 100%;
+
+    #ImgPrincipal {
+      object-position: 50%;
+    }
+
+    #Navegador {
+      nav {
+        position: fixed;
+        top: 0;
+
+        #logo {
+          display: none;
+        }
+        #logomobile {
+          display: inline;
+          margin-left: 30px;
+        }
+
+        #links {
+          grid-template-columns: 1fr;
+          #registro {
+            display: none;
+          }
+
+          #idiomas {
+            grid-template-columns: 1fr;
+            justify-items: end;
+            a {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    #redes {
+      display: none;
+    }
+
+    #ContHeader {
+      #titulos {
+        grid-template-columns: 1fr;
+        top: 490px;
+        margin-left: 6vw;
+
+        button {
+          width: 80vw;
+          height: 70px;
+          font-size: 20px;
+          font-weight: 390;
+        }
+
+        h3 {
+          font-size: 40px;
+        }
+
+        h1 {
+          font-size: 60px;
+        }
+      }
+
+      #busqueda {
+        position: absolute;
+        top: 140px;
+        margin-right: 5vw;
+        margin-left: 10vw;
+        #buscador{
+          input {
+            width: 80vw;
+          }
+        }
+      }
+    }
+  }
+
+  #Parte1 {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+
+    #GaleriaCasas {
+      
+      #botResp {
+        grid-column: span 12;
+        display: grid;
+        position: relative;
+        justify-items: start;
+
+        img{
+          position: absolute;
+          width: 14%;
+          
+        }
+
+        button{
+          background-color: transparent;
+          border: none;
+          color: #df991b;
+          font-size: 20px;
+          width: 80%;
+          height: 32px;
+        }
+      }
+
+      .casa1 {
+        display: none;
+      }
+      .casa2 {
+        grid-column: span 10;
+      }
+      .casa3 {
+        grid-column: span 2;
+      }
+      .tex {
+        display: none;
+      }
+    }
+
+    .menu {
+      display: none;
+    }
+  }
+
+  #Parte2 {
+    grid-template-columns: 1fr;
+
+    #edificios{
+      display: none;
+    }
+
+    #departamentos{
+      display: grid;
+      margin-top: 15%;
+      
+      #texDep{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 0px 15px 0px;
+        justify-items: start;
+        h3{
+          font-size: 20px;
+          color: #df991b;
+          font-weight: 400;
+        }
+        h1{
+          font-size: 35px;
+          font-weight: 500;
+        }
+
+      }
+
+      #GallDep{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2%;
+        margin-bottom: 15vw;
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      
+    }
+  }
+
+  footer {
+    margin-top: 10px;
+    #foot1 {
+      display: none;
+    }
+    #foot2 {
+      height: 60%;
+      #enlaces {
+        grid-template-columns: 1fr 1fr;
+
+        .primera {
+          grid-column: span 2;
+          font-size: 15px;
+          font-weight: 300;
+        }
+
+        .tercera {
+          #separado {
+            margin-top: 0;
+          }
+        }
+
+        .medio {
+          margin-top: 15px;
+          justify-self: start;
+          font-size: 15px;
+          font-weight: 300;
+        }
+
+        .ultima {
+          grid-column: span 2;
+          margin-top: 30px;
+          justify-self: start;
+          text-align: start;
+
+          #num{
+            font-size: 20px;
+            font-weight: 500;
+          }
+
+          #separado {
+            margin-top: 0;
+            font-size: 15px;
+            font-weight: 300;
+          }
+          #call {
+            display: none;
+          }
+        }
+      }
+
+      #copy {
+        display: none;
+      }
+    }
+  }
+}

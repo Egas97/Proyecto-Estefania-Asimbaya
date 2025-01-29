@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "brandonGrotesque";
+    src: url(./Fuentes/brandon-grotesque-font-family/Brandon_Grotesque_thin.otf);
+  }
+  
+  @font-face {
+    font-family: "brandonGrotesqueBold";
+    src: url(./Fuentes/brandon-grotesque-font-family/Brandon_Grotesque_bold.otf);
+  }
+  
+  @font-face {
+    font-family: "PFRegal";
+    src: url(./Fuentes/PfRegal/PFRegalDisplayPro-Regular.ttf);
+  }
+  
+  .fuente1 {
+    font-family: "brandonGrotesque";
+    font-weight: bold;
+  }
+  
+  .fuente2 {
+    font-family: "PFRegal";
+  }
+  
+  button {
+    font-family: "brandonGrotesque";
+    font-weight: bold;
+  }
+  
+  input {
+    font-family: "brandonGrotesque";
+    font-weight: bold;
+  }
