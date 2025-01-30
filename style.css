@@ -185,7 +185,24 @@ header {
         }
       }
     }
+
+    #ContCuadro{
+      display: grid;
+      grid-template-columns: 10fr 1fr 1fr 1fr 10fr;
+      width: 100%;
+      position: absolute;
+      row-gap: 30px;
+      top:112vh;
+      .Cuadrito{
+        height: 5px;
+        width: 31.5px;
+        background-color: #b4b7b7;
+        margin-right: 10px;
+      }
+    }
+
   }
+
 }
 
 #Parte1 {
